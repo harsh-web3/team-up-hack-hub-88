@@ -4,9 +4,11 @@ import { TeammateFinder } from "@/components/TeammateFinder";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-gradient-to-b from-background to-slate-50">
       <Header />
-      <TeammateFinder />
+      <main className="pb-16">
+        <TeammateFinder />
+      </main>
     </div>
   );
 };
